@@ -56,6 +56,7 @@ Playwright (E2E testing)
 
 ## Project Structure
 
+```bash
 Form-life/
 ├── public/
 │   └── vite.svg
@@ -75,7 +76,7 @@ Form-life/
 │   │   │       ├── ExperienceStep.tsx
 │   │   │       ├── SkillsStep.tsx
 │   │   │       └── ReviewStep.tsx
-│   │   └── ui/        # Radix + shadcn components
+│   │   └── ui/
 │   ├── hooks/
 │   │   ├── use-mobile.ts
 │   │   └── useFormPersistence.ts
@@ -89,11 +90,7 @@ Form-life/
 ├── tsconfig.json
 ├── vite.config.ts
 └── README.md
-
-
-
-
-
+```
 
 ## setup & Run Locally
 
