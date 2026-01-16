@@ -184,13 +184,8 @@ npx playwright test
 ## Current tests cover:
 
 User can complete Step 1 and go to Step 2
-
 Form data persists to localStorage after continuing
-
-https://form-life.vercel.app/
-
 All tests should pass:
-
 2 passed
 
 ##  Live Demo
