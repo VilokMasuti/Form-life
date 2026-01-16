@@ -57,99 +57,39 @@ Playwright (E2E testing)
 ## Project Structure
 
 Form-life/
-├── .gitignore
-├── components.json
-├── eslint.config.js
-├── index.html
-├── package-lock.json
-├── package.json
-├── playwright.config.ts
 ├── public/
 │   └── vite.svg
-├── README.md
 ├── src/
 │   ├── App.tsx
+│   ├── main.tsx
+│   ├── index.css
 │   ├── assets/
 │   │   └── react.svg
 │   ├── components/
 │   │   ├── form/
 │   │   │   ├── MultiStepForm.tsx
 │   │   │   ├── StepIndicator.tsx
-│   │   │   ├── Steps/
-│   │   │   │   ├── ExperienceStep.tsx
-│   │   │   │   ├── PersonalInfoStep.tsx
-│   │   │   │   ├── ReviewStep.tsx
-│   │   │   │   └── SkillsStep.tsx
-│   │   │   └── SuccessState.tsx
-│   │   └── ui/
-│   │       ├── accordion.tsx
-│   │       ├── alert-dialog.tsx
-│   │       ├── alert.tsx
-│   │       ├── aspect-ratio.tsx
-│   │       ├── avatar.tsx
-│   │       ├── badge.tsx
-│   │       ├── breadcrumb.tsx
-│   │       ├── button-group.tsx
-│   │       ├── button.tsx
-│   │       ├── calendar.tsx
-│   │       ├── card.tsx
-│   │       ├── carousel.tsx
-│   │       ├── chart.tsx
-│   │       ├── checkbox.tsx
-│   │       ├── collapsible.tsx
-│   │       ├── command.tsx
-│   │       ├── context-menu.tsx
-│   │       ├── dialog.tsx
-│   │       ├── drawer.tsx
-│   │       ├── dropdown-menu.tsx
-│   │       ├── empty.tsx
-│   │       ├── field.tsx
-│   │       ├── form.tsx
-│   │       ├── hover-card.tsx
-│   │       ├── input-group.tsx
-│   │       ├── input-otp.tsx
-│   │       ├── input.tsx
-│   │       ├── item.tsx
-│   │       ├── kbd.tsx
-│   │       ├── label.tsx
-│   │       ├── menubar.tsx
-│   │       ├── navigation-menu.tsx
-│   │       ├── pagination.tsx
-│   │       ├── popover.tsx
-│   │       ├── progress.tsx
-│   │       ├── radio-group.tsx
-│   │       ├── scroll-area.tsx
-│   │       ├── select.tsx
-│   │       ├── separator.tsx
-│   │       ├── sheet.tsx
-│   │       ├── sidebar.tsx
-│   │       ├── skeleton.tsx
-│   │       ├── slider.tsx
-│   │       ├── sonner.tsx
-│   │       ├── spinner.tsx
-│   │       ├── switch.tsx
-│   │       ├── table.tsx
-│   │       ├── tabs.tsx
-│   │       ├── textarea.tsx
-│   │       ├── toggle-group.tsx
-│   │       ├── toggle.tsx
-│   │       └── tooltip.tsx
+│   │   │   ├── SuccessState.tsx
+│   │   │   └── Steps/
+│   │   │       ├── PersonalInfoStep.tsx
+│   │   │       ├── ExperienceStep.tsx
+│   │   │       ├── SkillsStep.tsx
+│   │   │       └── ReviewStep.tsx
+│   │   └── ui/        # Radix + shadcn components
 │   ├── hooks/
 │   │   ├── use-mobile.ts
 │   │   └── useFormPersistence.ts
-│   ├── index.css
 │   ├── lib/
 │   │   ├── formSchema.ts
 │   │   └── utils.ts
-│   ├── main.tsx
 │   └── tests/
 │       └── form.spec.ts
-├── test-results/
-│   └── .last-run.json
-├── tsconfig.app.json
+├── playwright.config.ts
+├── package.json
 ├── tsconfig.json
-├── tsconfig.node.json
-└── vite.config.ts
+├── vite.config.ts
+└── README.md
+
 
 
 
